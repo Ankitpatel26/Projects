@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    color: white;
+    background: hsl(0, 95%, 34%);
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+ padding-top: 10px; 
+    border:2px solid red;
+    margin-bottom: 0px;
+}
+
+.heading{
+    color: black;
+    background: rgb(223, 217, 217);
+    height: 120px;
+    line-height: 0.3;
+    padding: 5px;
+    background-image:url(MCClogo.png);
+    background-repeat: no-repeat;
+    background-size: 8%;
+    text-align: center;
+    
+    
+}
+.text {
+    /* font-family: 'Anton', sans-serif; */
+    /* font-family: 'Alfa Slab One', cursive;
+    font-family: 'Pacifico', cursive; */
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Fredoka One', cursive;
+    text-align: center ;
+    background-color: grey;
+    margin: 0px;
+    padding: 5px;
+    
+}
+.name{
+    margin-left: 50px;
+    padding: auto;
+}
+.image{
+    
+    /* background: url("photo1.jpg") no-repeat;
+    display: inline-block;
+    width: 130px;
+    height: 195px;
+    margin-right: 50px; */
+
+width: 100px;
+  height: 100px;
+  background: url("photo1.jpg");
+  animation-name: image;
+  animation-duration: 4s;
+
+
+
+}
+@keyframes image {
+    from {background: url("photo1")}
+    to {background: url("photo2") ;}
+
+}
